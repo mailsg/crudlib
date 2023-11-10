@@ -100,9 +100,9 @@ To run the project, execute the following command:
 ```
 
 Below are the Endpoints to perform CRUD operations:
-- **GET** `/books` - Get all books
-- **GET** `/books/:id` - Get a book by id
-- **POST** `/books` - Create a new book
+- **GET** `http://localhost:3000/api/books` - Get all books
+- **GET** `http://localhost:3000/api/books/:id` - Get a book by id
+- **POST** `http://localhost:3000/api/books` - Create a new book
     - **Request Body**
       ```json
       {
@@ -111,7 +111,7 @@ Below are the Endpoints to perform CRUD operations:
         "summary": "Book Summary"
       }
       ```
-- **PUT** `/books/:id` - Update a book by id
+- **PUT** `http://localhost:3000/api/books/:id` - Update a book by id
     - **Request Body** (Any or all of the following)
       ```json
       {
@@ -120,7 +120,7 @@ Below are the Endpoints to perform CRUD operations:
         "summary": "Book Summary"
       }
       ```
-- **DELETE** `/books/:id` - Delete a book by id
+- **DELETE** `http://localhost:3000/api/books/:id` - Delete a book by id
 
 <!-- AUTHORS -->
 
